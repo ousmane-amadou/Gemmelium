@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A8AE2859-0A32-D2E8-701A-722ADD6EF9DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\N_Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\N_Scripts\MOD_MANAGER.cs" />
+     <Compile Include="Assets\N_Scripts\Question Generator\dynQ.cs" />
+     <Compile Include="Assets\N_Scripts\Question Generator\engQ.cs" />
+     <Compile Include="Assets\N_Scripts\Question Generator\kinQ.cs" />
+     <Compile Include="Assets\N_Scripts\selection_handler.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Integrations\PowerToolsIntegration\PowerToolsIntegration.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\CustomAssetUtility.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\DNARangeAsset.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\DnaConverterBehaviour.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\ExpressionPlayer.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\FileUtils.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\MaxRectsBinPack.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\OverlayColorData.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\OverlayData.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\OverlayDataAsset.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\OverlayLibraryBase.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\RaceData.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\RaceLibraryBase.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\SeamRemoval.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\SkinnedMeshAligner.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\SkinnedMeshCombiner.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\SlotData.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\SlotDataAsset.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\SlotLibraryBase.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\TextureMerge.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\TextureProcessBaseCoroutine.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\TextureProcessPROCoroutine.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\TwistBones.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAAssetCollection.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAAssetFieldVisible.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAAvatarBase.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMABonePose.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAContext.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAData.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMADefaultMeshCombiner.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMADnaBase.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMADynamicAvatar.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAEvents.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAExpressionPlayer.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAExpressionSet.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAGenerator.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAGeneratorBase.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAGeneratorBuiltin.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAGeneratorCoroutine.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAMaterial.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAMeshCombiner.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAMeshData.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMARecipeBase.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMARenderTextureManager.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAResourceNotFoundException.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMASkeleton.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMASkeletonDefault.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMATime.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UMAUtils.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\UmaTPose.cs" />
+     <Compile Include="Assets\Other\Standard Assets\UMA\Core\Scripts\WorkerCoroutine.cs" />
+     <Compile Include="Assets\Scripts\# Player\CharacterHealth.cs" />
+     <Compile Include="Assets\Scripts\# Problem Sequence Scripts\FallingSequence.cs" />
+     <Compile Include="Assets\Scripts\# Problem Sequence Scripts\ProjectileMotionSequence.cs" />
+     <Compile Include="Assets\Scripts\# Problem Sequence Scripts\RocketSequence.cs" />
+     <Compile Include="Assets\Scripts\# Problem Sequence Scripts\Sequence.cs" />
+     <Compile Include="Assets\Scripts\# Problem Sequence Scripts\SequenceListener.cs" />
+     <Compile Include="Assets\Scripts\# Problem Sequence Scripts\WorkSequence.cs" />
+     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Carousel.cs" />
+     <Compile Include="Assets\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Scripts\Game_Loop.cs" />
+     <Compile Include="Assets\Scripts\GenerationLogic.cs" />
+     <Compile Include="Assets\Scripts\HighscoreHandler.cs" />
+     <Compile Include="Assets\Scripts\Object Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\Object Scripts\MovingPlatform.cs" />
+     <Compile Include="Assets\Scripts\Object Scripts\ObjectSpawner.cs" />
+     <Compile Include="Assets\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Scripts\Parallax.cs" />
+     <Compile Include="Assets\Scripts\Problem.cs" />
+     <Compile Include="Assets\Scripts\ProblemSpawner.cs" />
+     <Compile Include="Assets\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\main_menu.cs" />
+     <None Include="Assets\hw_red\license.txt" />
+     <None Include="Assets\Assets\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\hw_red\hw_red.shader" />
+     <None Include="Assets\Other\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Other\Standard Assets\UMA\Core\Atlas\AtlasShader.shader" />
+     <None Include="Assets\Other\Standard Assets\UMA\Core\Atlas\AtlasNormalShader.shader" />
+     <None Include="Assets\Materials\Other\UI-Default-No-Alpha.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
